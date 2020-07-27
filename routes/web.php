@@ -16,7 +16,8 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+//esto es para git
+//gggg
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::middleware(['auth'])->group(function () {
